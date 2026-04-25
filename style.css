@@ -1,0 +1,46 @@
+:root {
+  --main-green: #31572c;
+  --card-bg: rgba(255, 255, 255, 0.95);
+}
+
+body {
+  background-color: #f0f4ea;
+  color: rgb(35, 35, 35);
+  margin: 0;
+  padding: 0.25in;
+}
+
+main {
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+header {
+  background-color: #31572c;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: #132a13;
+  border-width: 3px;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+.meeting-section {
+  background-color: var(--card-bg, white);
+  border: 2px solid #90a955;
+  border-radius: 10px;
+  margin: 18px 0 18px 0;
+  padding: 16px;
+}
+
+.important-section {
+  background-color: #f7ffe8;
+}
+
+h2, h3 {
+  color: var(--main-green, darkgreen);
+}
